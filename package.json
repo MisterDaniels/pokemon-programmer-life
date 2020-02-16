@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-programmer-life-bot",
+  "version": "1.0.0",
+  "description": "Pokémon Dirscord Game Bot",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --exec babel-node src/app"
+  },
+  "keywords": [
+    "pokemon",
+    "discord",
+    "bot"
+  ],
+  "author": "Daniel Silva",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "nodemon": "^2.0.2"
+  }
+}
